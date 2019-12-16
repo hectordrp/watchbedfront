@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as firebase from 'firebase';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'WatchbedFront';
+
+
+  ngOnInit(){
+    firebase.initializeApp({
+      apiKey: 'AIzaSyBo1cqkSDB_xlro5QfG1LUybkVtcrLOwdU',
+      authDomain: 'watchbed.firebaseapp.com'
+    });
+  }
 }

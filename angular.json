@@ -23,9 +23,14 @@
               "src/assets"
             ],
             "styles": [
+              "assets/bootstrap/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "assets/jquery/jquery-3.2.1.min.js",
+              "assets/tether/js/tether.min.js",
+              "assets/bootstrap/js/bootstrap.min.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
